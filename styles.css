@@ -145,7 +145,7 @@ color: #434455;
 .portfolio {
   padding: 60px 0;
 }
-.portfolio-title {
+.portfolio__title {
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -154,7 +154,7 @@ text-transform: capitalize;
 color: #2e2f42;
 }
 
-.portfolio-list {
+.portfolio_list {
   display: flex;
   gap: 30px;
   justify-content: center;
