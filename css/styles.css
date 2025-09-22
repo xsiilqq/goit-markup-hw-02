@@ -125,39 +125,27 @@ a {
 .portfolio {
   padding: 60px 0;
 }
-.team { 
-  background-color: #F4F4FD;
-  padding: 120px 0;
+.team {
+  letter-spacing: 0.02em;
 }
 .team__title {
-  font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2e2f42;
-}
-.team__name {
-  font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
-.team__position {
-  font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-size: 36px;          /* розмір тексту */
+  line-height: 1.11;        /* простір між рядками */
+  text-align: center;       /* вирівнювання тексту по центру */
+  letter-spacing: 0.02em;   /* відстань між літерами */
+  text-transform: capitalize; /* перша буква кожного слова велика */
+  color: #2e2f42; 
+  
 }
 
 .portfolio-title {
- font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2e2f42;
+  font-size: 36px;          /* розмір тексту */
+  line-height: 1.11;        /* простір між рядками */
+  text-align: center;       /* вирівнювання тексту по центру */
+  letter-spacing: 0.02em;   /* відстань між літерами */
+  text-transform: capitalize; /* перша буква кожного слова велика */
+  color: #2e2f42;           /* колір тексту */
+  margin-bottom: 40px;
 }
 
 .portfolio-list {
@@ -168,18 +156,9 @@ color: #2e2f42;
   margin: 0;
   padding: 0;
 }
-.project__name{
-  font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
-}
-.project__category {
-  font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+
+.portfolio-item {
+  max-width: 220px;
 }
 
 .feature-title {
