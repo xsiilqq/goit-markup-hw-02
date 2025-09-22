@@ -62,7 +62,9 @@ a {
   color: #404bbf;
 }
 
-
+.contacts {
+   font-style: normal;
+}
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -109,17 +111,14 @@ a {
 .hero-btn:focus {
   background-color: #404BBF;
 }
-.team {
-  background-color: #F4F4FD; /* задає фон секції */
-  padding: 120px 0;         /* відступи зверху і знизу */
-}
 
-.portfolio {
-  padding: 60px 0;
-}
-.team { 
+
+.team {
   background-color: #F4F4FD;
-  padding: 120px 0;
+}
+.team__iteam { 
+  background-color: #FFFFFF;
+  
 }
 .team__title {
   font-size: 36px;
@@ -154,7 +153,7 @@ text-transform: capitalize;
 color: #2e2f42;
 }
 
-.portfolio_list {
+.portfolio-list {
   display: flex;
   gap: 30px;
   justify-content: center;
