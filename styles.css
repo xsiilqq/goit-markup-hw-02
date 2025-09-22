@@ -42,14 +42,7 @@ a {
 }
 
 .logo-text {
-  color: #2e2f42; /* колір для STUDIO */
-  font-weight: 700;
-  font-family: 'Raleway', sans-serif;
-}
-
-.logo-text::before {
-  content: "WEB";
-  color: #4d5ae5; 
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -121,7 +114,6 @@ a {
   padding: 120px 0;         /* відступи зверху і знизу */
 }
 
-/* Features */
 .portfolio {
   padding: 60px 0;
 }
@@ -150,9 +142,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
+.portfolio {
+  padding: 60px 0;
+}
 .portfolio-title {
- font-size: 36px;
+font-size: 36px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
@@ -180,6 +174,9 @@ color: #2e2f42;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.portfolio__iteam {
+  background-color: #FFFFFF;
 }
 
 .feature-title {
