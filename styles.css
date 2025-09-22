@@ -35,7 +35,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -103,7 +103,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   color: #ffffff;
   padding: 12px 30px;
   cursor: pointer;
@@ -125,12 +125,12 @@ a {
 }
 
 .features-title {
-  font-size: 36px;            /* розмір тексту */
-  line-height: 1.11;          /* простір між рядками */
-  text-align: center;         /* вирівнювання тексту по центру */
-  letter-spacing: 0.02em;     /* відстань між літерами */
+  font-size: 36px;          /* розмір тексту */
+  line-height: 1.11;        /* простір між рядками */
+  text-align: center;       /* вирівнювання тексту по центру */
+  letter-spacing: 0.02em;   /* відстань між літерами */
   text-transform: capitalize; /* перша буква кожного слова велика */
-  color: #2e2f42;             /* колір тексту */
+  color: #2e2f42;           /* колір тексту */
   margin-bottom: 40px;
 }
 
@@ -148,9 +148,9 @@ a {
 }
 
 .feature-title {
-  font-weight: 500;        /* жирність шрифту (medium) */
+font-weight: 500;        /* жирність */
   font-size: 20px;         /* розмір тексту */
-  line-height: 1.2;        /* вертикальний інтервал між рядками */
+  line-height: 1.2;        /* міжрядковий інтервал */
   letter-spacing: 0.02em;  /* відстань між літерами */
   color: #2e2f42;          /* колір тексту */
   margin-bottom: 8px;
