@@ -4,7 +4,6 @@ body {
   font-weight: 400;
   color: #434455;
   margin: 0;
-  padding: 0;
   line-height: 1.5;
   background-color: #FFFFFF;
 }
@@ -155,14 +154,7 @@ text-transform: capitalize;
 color: #2e2f42;
 }
 
-.portfolio-list {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+
 .project__name{
   font-weight: 500;
 font-size: 20px;
@@ -176,7 +168,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.portfolio__iteam {
+.portfolio__item {
   background-color: #FFFFFF;
 }
 
