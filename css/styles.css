@@ -41,15 +41,8 @@ a {
   color: #4d5ae5;
 }
 
-.logo-text {
-  color: #2e2f42; /* колір для STUDIO */
-  font-weight: 700;
-  font-family: 'Raleway', sans-serif;
-}
-
-.logo-text::before {
-  content: "WEB";
-  color: #4d5ae5; 
+.studio {
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -69,7 +62,9 @@ a {
   color: #404bbf;
 }
 
-
+.contacts {
+   font-style: normal;
+}
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -116,36 +111,46 @@ a {
 .hero-btn:focus {
   background-color: #404BBF;
 }
-.team {
-  background-color: #F4F4FD; /* задає фон секції */
-  padding: 120px 0;         /* відступи зверху і знизу */
-}
 
-/* Features */
+
+.team {
+  background-color: #F4F4FD;
+}
+.team__iteam { 
+  background-color: #FFFFFF;
+  
+}
+.team__title {
+  font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
+.team__name {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.team__position {
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
 .portfolio {
   padding: 60px 0;
 }
-.team {
-  letter-spacing: 0.02em;
-}
-.team__title {
-  font-size: 36px;          /* розмір тексту */
-  line-height: 1.11;        /* простір між рядками */
-  text-align: center;       /* вирівнювання тексту по центру */
-  letter-spacing: 0.02em;   /* відстань між літерами */
-  text-transform: capitalize; /* перша буква кожного слова велика */
-  color: #2e2f42; 
-  
-}
-
-.portfolio-title {
-  font-size: 36px;          /* розмір тексту */
-  line-height: 1.11;        /* простір між рядками */
-  text-align: center;       /* вирівнювання тексту по центру */
-  letter-spacing: 0.02em;   /* відстань між літерами */
-  text-transform: capitalize; /* перша буква кожного слова велика */
-  color: #2e2f42;           /* колір тексту */
-  margin-bottom: 40px;
+.portfolio__title {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
 }
 
 .portfolio-list {
@@ -156,9 +161,21 @@ a {
   margin: 0;
   padding: 0;
 }
-
-.portfolio-item {
-  max-width: 220px;
+.project__name{
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.project__category {
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.portfolio__iteam {
+  background-color: #FFFFFF;
 }
 
 .feature-title {
@@ -183,7 +200,7 @@ font-weight: 500;        /* жирність */
 }
 
 /* span з логотипом */
-.logo-studio {
+.studio {
   color: #F4F4FD;          /* колір тексту */
   letter-spacing: 0.02em;
   font-weight: 700;
